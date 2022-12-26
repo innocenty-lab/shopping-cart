@@ -18,7 +18,7 @@ const ShoppingCart = () => {
                     <div className={"col col-8"}>
                         <div className={"container-fluid border shadow rounded"}>
                             <div className={"row"}>
-                                <div className={"col-12 p-2 py-1"}>
+                                <div className={"col-12 p-3"}>
                                     <h2>Cart (2 items)</h2>
                                 </div>
                                 <div className={"col-12"}>
@@ -29,7 +29,7 @@ const ShoppingCart = () => {
                                         </div>
                                         <div className={"col-9"}>
                                             <div className={"row"}>
-                                                <div className={"col-12 bg-light"}>
+                                                <div className={"col-12"}>
                                                     <div className={"row"}>
                                                         <div className={"col-8"}>
                                                             <h3>Shirt Linko</h3>
@@ -47,7 +47,7 @@ const ShoppingCart = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className={"col-12 bg-dark"}>
+                                                <div className={"col-12"}>
                                                     {/*action*/}
                                                     <div className={"row"}>
                                                         <div className={"col-8"}>
@@ -82,7 +82,7 @@ const ShoppingCart = () => {
                                         </div>
                                         <div className={"col-9"}>
                                             <div className={"row"}>
-                                                <div className={"col-12 bg-light"}>
+                                                <div className={"col-12"}>
                                                     <div className={"row"}>
                                                         <div className={"col-8"}>
                                                             <h3>Shirt Rodes</h3>
@@ -100,7 +100,7 @@ const ShoppingCart = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className={"col-12 bg-dark"}>
+                                                <div className={"col-12"}>
                                                     {/*action*/}
                                                     <div className={"row"}>
                                                         <div className={"col-8"}>
@@ -130,7 +130,7 @@ const ShoppingCart = () => {
                     {/*cost*/}
                     <div className={"col col-4"}>
                         <div className={"row"}>
-                            <div className={"col-12 border shadow rounded mb-3"}>
+                            <div className={"col-12 border shadow rounded mb-3 p-3"}>
                                 <div className={"row"}>
                                     <div className={"col-12"}>
                                         <h4>The total amount of</h4>
@@ -152,12 +152,19 @@ const ShoppingCart = () => {
                                             <div className={"col-6"}>$53.98</div>
                                         </div>
                                     </div>
-                                    <div className={"col-12"}>
-                                        <button type={"button"} className={"btn btn-primary"}>GO TO CHECKOUT</button>
+                                    <div className={"col-12 pt-4"}>
+                                        <button type={"button"} className={"btn btn-primary w-100"}>GO TO CHECKOUT</button>
                                     </div>
                                 </div>
                             </div>
-                            <div className={"col-12 border shadow rounded"}>2</div>
+                            <div className={"col-12 border shadow rounded p-3"}>
+                                <div className={"row"}>
+                                    <div className={"col-10  my-auto"}>Add a dicount code (Optional)</div>
+                                    <div className={"col-2"}>
+                                        <button type="button" className={"btn dropdown-toggle"}/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
